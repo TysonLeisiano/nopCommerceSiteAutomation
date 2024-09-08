@@ -93,10 +93,3 @@ def pytest_metadata(metadata):
     metadata.pop('Plugins', None)
     # metadata.pop('JAVA_HOME', None)
 
-# from pytest import hookimpl
-#
-# @hookimpl(optionalhook=True)
-# def pytest_metadata(metadata):
-#     metadata["Project Name"] = "Ecommerce Project, nopCommerce"
-#     metadata["Test Module Name"] = "Admin Login Tests"
-#     metadata["Tester Name"] = "Tyson"
