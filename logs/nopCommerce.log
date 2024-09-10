@@ -62,3 +62,32 @@
 24-09-04 00:08:21:INFO:patching driver executable C:\Users\Abby\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
 24-09-04 00:08:28:INFO:***************Verification of invalid admin login ***************
 24-09-04 00:08:29:INFO:***************Verification of invalid admin login passed ***************
+24-09-10 10:29:25:INFO:====== WebDriver manager ======
+24-09-10 10:29:26:INFO:Get LATEST chromedriver version for google-chrome
+24-09-10 10:29:27:INFO:Get LATEST chromedriver version for google-chrome
+24-09-10 10:29:27:INFO:Driver [C:\Users\Abby\.wdm\drivers\chromedriver\win64\128.0.6613.119\chromedriver-win32/chromedriver.exe] found in cache
+24-09-10 10:29:32:INFO:patching driver executable C:\Users\Abby\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+24-09-10 10:29:38:INFO:***************TestAdminLogin***************
+24-09-10 10:29:38:INFO:***************Verification of admin page title***************
+24-09-10 10:29:38:INFO:====== WebDriver manager ======
+24-09-10 10:29:39:INFO:Get LATEST chromedriver version for google-chrome
+24-09-10 10:29:40:INFO:Get LATEST chromedriver version for google-chrome
+24-09-10 10:29:40:INFO:Driver [C:\Users\Abby\.wdm\drivers\chromedriver\win64\128.0.6613.119\chromedriver-win32/chromedriver.exe] found in cache
+24-09-10 10:29:45:INFO:patching driver executable C:\Users\Abby\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+24-09-10 10:29:50:INFO:***************Verification of valid admin login ***************
+24-09-10 10:29:53:INFO:====== WebDriver manager ======
+24-09-10 10:29:54:INFO:Get LATEST chromedriver version for google-chrome
+24-09-10 10:29:54:INFO:Get LATEST chromedriver version for google-chrome
+24-09-10 10:29:55:INFO:Driver [C:\Users\Abby\.wdm\drivers\chromedriver\win64\128.0.6613.119\chromedriver-win32/chromedriver.exe] found in cache
+24-09-10 10:29:59:INFO:patching driver executable C:\Users\Abby\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+24-09-10 10:30:04:INFO:***************Verification of invalid admin login ***************
+24-09-10 10:30:06:INFO:***************Verification of invalid admin login passed ***************
+24-09-10 10:31:02:INFO:====== WebDriver manager ======
+24-09-10 10:31:03:INFO:Get LATEST chromedriver version for google-chrome
+24-09-10 10:31:03:INFO:Get LATEST chromedriver version for google-chrome
+24-09-10 10:31:04:INFO:Driver [C:\Users\Abby\.wdm\drivers\chromedriver\win64\128.0.6613.119\chromedriver-win32/chromedriver.exe] found in cache
+24-09-10 10:31:08:INFO:patching driver executable C:\Users\Abby\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+24-09-10 10:31:13:INFO:***************Starting Test03AddNewCustomer ***************
+24-09-10 10:31:13:INFO:***************Performing login ***************
+24-09-10 10:31:14:INFO:***************Login success ***************
+24-09-10 10:31:14:INFO:***************starting add customer test ***************
