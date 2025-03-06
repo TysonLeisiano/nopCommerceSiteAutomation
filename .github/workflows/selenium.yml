@@ -24,6 +24,12 @@ jobs:
       - name: Install dependencies
         run: pip install selenium pytest
 
+      - name: Install Docker Compose
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker-compose
+      
+
       - name: Upgrade Docker Compose
         run: |
           sudo apt-get update
