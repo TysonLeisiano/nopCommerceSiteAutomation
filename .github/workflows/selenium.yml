@@ -1,0 +1,42 @@
+name: Selenium Tests
+
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install selenium pytest
+
+      - name: Upgrade Docker Compose
+        run: |
+          sudo apt-get update
+          sudo apt-get install docker-compose-plugin
+          docker compose version  # Check version
+
+      - name: Start Selenium Grid with Docker
+        run: |
+          docker compose up -d
+          sleep 10  # Wait for Selenium Grid to start
+
+      - name: Run Selenium tests
+        run: pytest test_admin_login.py
+
+      - name: Stop Selenium Grid
+        run: docker compose down
